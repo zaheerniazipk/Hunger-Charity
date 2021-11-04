@@ -1,0 +1,227 @@
+/* --------------------------------------- */
+/* BASIC SETUP */
+/* --------------------------------------- */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+	color: #555;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+
+/* --------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* --------------------------------------- */
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+
+/* ---------- HEADINGS ---------- */
+h1 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 240%;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+}
+
+h2 {
+	font-size: 180%;
+	word-spacing: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+
+h3 {
+	font-size: 110%;
+	margin-bottom: 15px;
+}
+
+
+/* --------------- Paragraphs --------------- */
+.long-copy {
+	line-height: 145%;
+	width: 70%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 2%;
+}
+
+.long-copy2 {
+	line-height: 145%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 2%;
+}
+
+/* --------------- Section --------------- */
+section {
+	padding: 80px 0;
+}
+
+/* --------------- box --------------- */
+.box {
+	padding-right: 1%;
+}
+
+/* ---------- BUTTONS ---------- */
+
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+	transition: background-color 0.3s linear 0.3s, border 0.3s linear 0.3s, color 0.3s linear 0.3s;
+}
+
+.btn-full:link, 
+.btn-full:visited {
+	border: 1px solid #e67e22;
+	background-color: #e67e22;
+	color: #fff;
+	margin-right: 15px;
+}
+
+
+.btn:hover,
+.btn:active {
+	background-color: #cf6d17;  /*Darker Version of carrot orange color*/
+	color: #fff;
+}
+
+.btn-full:hover, 
+.btn-full:active {
+	border: 1px solid #cf6d17;
+}
+
+
+
+/* --------------------------------------- */
+/* HEADER */
+/* --------------------------------------- */
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) , url(img/header-bg.jpg);
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.hero-text-box {
+	width: 1140px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.logo {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 40px;
+	width: auto;
+	float: left;
+}
+
+.main-nav {
+	margin: 40px 0px 30px 0px;
+	float: right;
+	list-style: none;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+	padding: 8px 0px;
+	text-decoration: none;
+	color: #111;
+	font-size: 90%;  /* 18px */
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover, 
+.main-nav li a:active {
+	border-bottom: 2px solid #ef7e22;
+}
+
+
+.about-us{
+	background-color: #f9f9ff;
+}
+
+
+
+.our-causes {
+	background-color: #f3f3f3;
+}
+
+.our-causes img {
+	margin-bottom: 15px;
+}
+
+.cause1 p {
+	margin-bottom: 20px;
+}
+
+
+.quote-section {
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(img/about-img.jpg);
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.quote-box {
+	padding: 120px 0px;
+	color: #fff;
+	text-align: center;
+	margin: 0px auto;
+}
+
+
+.contact-us {
+	padding: 20px 20px;
+	text-align: center;
+	background-color: #333;
+}
+
+.contact-info {
+	color: #fff;
+	padding: 6%;
+	text-align: left;
+}
+
+footer {
+	padding: 20px;
+	background-color: #fff;
+	color: #333;
+	text-align: center;
+}
